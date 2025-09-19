@@ -5,8 +5,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interface A3 Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bytesized&family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <!-- <header> -->
+        <div class="bottomBlock">
+        </div>
+        <h6>To Study Space</h6>
+         <a href="https://tostudyspace.netlify.app/">To Study Space</a>
+    <!-- </header> -->
+   <hr>
+    <div class="draft concept"> 
+        <h1>Draft Concept</h1>
+        <h4>Theme:</h4>
+        <h2>Various environments and weather conditions.</h2>
+        <h4>Intended Audience:</h4>
+        <h2> People who enjoy listening to natural or ambient sounds while studying.</h2>
+        <h4>Technical Approach:</h4>
+        <h2>Interaction through keyboard or buttons, with buttons changing visually on hover.</h2>
+        <h4>Sound Ideas:</h4>
+        <h2>Nature and environmental sounds.</h2>
+        <h4>Video Ideas:</h4>
+        <h2>Animated visuals that correspond to different environments.</h2>
+    </div>
+    <div class="overview">
+    <h1>Project Title: To Study Space</h1>
+    <h2>Overview(concept): A self-study website that allows users to study immersively, with layered audio, background videos, and a visual timer. Users can mix ambient sounds and music using sliders and mute buttons. The website also displays the current date and time with an analog clock, providing real-time feedback. A countdown timer promotes focused study, giving both visual and audio alert cues when the time is up. Background videos can be easily switched via a panel, enhancing the immersive study environment. The overall design uses the principles of no-text-characters, skeuomorphic elements, and intuitive controls to make the experience both engaging and immersive.
+    </h2>
+    </div>
+
+    <div class="Design Principle">
+        <h1>Design principles</h1>
+        <h3>Feedback</h3>
+        <h4>Sound Control</h4>
+        <ul>
+            <li>The icon button changes to show the mute and unmute states: 🔇 with a red cross represents muted, and 🔊 means unmuted. The slider controls the volume of each individual sound track. Since there are multiple tracks, the sliders do not display numbers. By default, I set the volume at 50 percent for testing purposes, and the sliders also load at 50 percent volume. The position of the sliders provides visual feedback of the current volume level. This intentional design ensures the sound will not startle users when it begins playing. Additionally, a pop-up reminder appears when entering the website to notify users about the sound.</li>
+        </ul>
+        <h4>Date/Time</h4>
+        <ul>
+            <li>The analog clock provides continuous visual feedback of time passing. The thickness of the clock hands differentiates the hour, minute, and second. Below the analog clock, there is also a numerical date and time, which provides textual feedback. This display corresponds to real-life time, reassuring users that the system is accurate.</li>
+        </ul>
+        <h4>timer</h4>
+        <ul>
+            <li>The countdown timer updates every second, providing an accurate and familiar way to display remaining time. When the timer ends, a pop-up alert gives explicit feedback to notify the user that the countdown has finished. The three control buttons (“Start,” “Stop,” and “Reset”) allow the user to change the behavior of the timer at any stage, ensuring flexibility during the timing process.</li>
+        </ul>
+        <h4>Video Panel</h4>
+        <ul>
+            <li>
+                A video panel is included to let users choose any background footage they like. By clicking the buttons, each one loads a different looping video scene, providing visual feedback that the environment has changed. Double-clicking a video button closes the panel to its minimal stage, giving users control over its visibility.
+            </li>
+        </ul>
+        <h3>Information Design</h3>
+        <h2> The information design in my project includes buttons, sliders, and visual displays.</h2>
+        <h4>Buttons</h4>
+        <ul>
+            <li>
+               Buttons are designed with attention to size, color, and alignment. The color scheme is harmonious with the background videos, and the sizing ensures readability, hierarchy, and visual aesthetics. 
+            </li>
+        </ul>
+        <h4>Sliers</h4>
+        <ul>
+            <li>
+               Sliders are designed with the same considerations but specifically communicate range from minimum to maximum. Sliding left lowers the volume and sliding right raises it, following conventions familiar across many cultures. 
+            </li>
+        </ul>
+        <h4>Visual Displays</h4>
+        <ul>
+            <li>
+                Visual Displays include three major elements: the date/time, the background video, and the overall layout of the panels. Important techniques I used in my information design include size, color, alignment, and the use of positive and negative space.
+            </li>
+        </ul>
+        <h3>Mapping</h3>
+        <h2> In the “Study Space” section, mapping is clearly demonstrated through the sliders and buttons:</h2>
+        <ul>
+            <li>
+                Dragging the slider to the right increases the volume in direct proportion to the percentage shown, making the interaction intuitive and easy to navigate.
+            </li>
+            <li>
+                Video switching happens quickly and accurately without errors, meaning the screen responds directly to the user’s input.
+                This close relationship between controls (input) and outcomes (function) ensures accurate mapping.
+            </li>
+        </ul>    
+    </div>
+    <div class="Technical Apporach">
+        <h1>Technical Approach</h1>
+        <h2>The project is developed primarily with HTML, CSS, and JavaScript, creating a functional interactive prototype hosted on GitHub and deployed via Netlify. I have also included media assets (MP3 and MP4 files), which are major components for creating the immersive environment.</h2>
+        <h2>The main features of my project include:</h2>
+        <ul>
+            <li>An analog clock and timer.</li>
+            <li>A sound mixer with individual sliders.</li>
+            <li>A background video panel.</li>
+        </ul>
+        <h2>My strategy emphasizes a layered UI approach: the background video and sound controls capture the user’s attention, while the analog clock and timer provide supporting information. Together, these elements form a cohesive visual hierarchy that enhances usability and immersion.</h2>
+    </div>
+
+    <div class="prompt">
+        <h1>No Text Characters</h1>
+        <h2> I tried to achieve a text-free interface by using icons and images to show users what each button represents. This was challenging because some concepts do not have a specific icon that directly represents them. To solve this, I used related icons as substitutes. For example, I replaced the text for “library/study space” with a pencil or a book, and “living room” with a couch.</h2>
+        <h1>Skeuomorphism</h1>
+        <h2> Skeuomorphism is a design style in which digital user interfaces mimic real-world objects and their characteristics. In my project, this is shown through the analog clock. The clock includes hour, minute, and second hands that rotate in real time, and it uses shadowing to create a 3D effect, making it resemble a physical clock. By bringing a real-world object into the interface, users can instantly recognize and read the current time without leaving the webpage.</h2>
+        <h2>Another skeuomorphic element I implemented is the old-style television. It has buttons that allow users to switch between different channels. Clicking these buttons in the interface is similar to how people used to change channels on physical televisions. This design references the way people interacted with television sets in the past, while digitizing the experience without the need for physical controls.</h2>
+        <h2>The volume slider also mimics audio equipment, such as mixing consoles and DJ controllers. Sliding it to the left lowers the volume, while sliding it to the right increases it. This mirrors the physical interaction users would expect from real-world sound equipment.</h2>
+    </div>
+
+    <div class="Design References">
+        <h1>References</h1>
+        <h3>My noise</h3>
+        <a href="https://mynoise.net/NoiseMachines/jungleNoiseGenerator.php/ ">https://mynoise.net/NoiseMachines/jungleNoiseGenerator.php/ </a>
+        <h2>I looked through MyNoise Jungle Life, which contains a series of sounds from a jungle environment. The sounds are all controlled with a play button and start and stop at the same time. Users can only adjust the volume range, with each slider representing a different sound classified as Bass, Mids, and Treble. This influenced my design choice of using sliders for different sounds; however, in my version, each sound can be muted individually. I chose to reference MyNoise because I was drawn to the feature that allows each ambient sound to be adjusted independently, creating an immersive experience that directly reflects the project’s title.
+        </h2>
+        <h3>Defonic</h3>
+        <a href="https://defonic.com/">https://defonic.com/</a>
+        <h2>I also looked at Defonic – Create Immersive Soundscapes. The layout of the website is not immersive but deliberately simple, avoiding information overload. It is clear how the website functions and it is easy to navigate. The use of environmental ambient sound inspired me and informed how I decided to incorporate sounds into my own project. On Defonic, the sounds can layer over each other depending on user choice. However, I wanted my project to be more immersive, so I carefully explored looping videos and sounds that match with each other. In my project, the visual and audio systems respond to one another, creating a stronger connection between visuals and sound.
+        </h2>
+        <h3>Forest</h3>
+        <a href="https://www.forestapp.cc/">https://www.forestapp.cc/</a>
+        <h2>This is an application where you simply plant a tree and wait until the timer finishes before using your phone; otherwise, the tree will die. Forest uses the technique of loss aversion to keep users focused, reflecting the idea that people prefer to avoid loss rather than acquire equivalent gains. The app also includes a system where the more time you stay focused, the bigger the tree grows. Users can choose longer sessions to grow larger and more visually appealing trees.</h2>
+        <h2>This concept inspired me to create a study space website that encourages users to remain within the interface and study. For my project, I incorporated visual looped videos and ambient sounds to create an immersive environment. While I liked the idea of planting trees, I did not want to restrict users. Instead, I implemented a timer to allow them to track their own study sessions, along with an analog clock so they can check the time without frequently switching devices or touching the screen.</h2>
+    </div>
+    <div class="Visual plan">
+        <h1>Viisual Plan</h1>
+        <img src="VP4.png" alt="VS1">
+        <img src="VP2.png" alt="VS2">
+        <img src="VP1.png" alt="VS3">
+        <img src="VP3.png" alt="VS4">
+    </div>
+    <div class="Feedbacks">
+            <ul>
+            <li>Do you find Skeuomorphism in this prototype?</li>
+            </ul>
+            <h5>Out of 9 responses, 5/9 noted that they found skeuomorphism in my project, mainly reflected in the analog clock and the background video. This aligns with my intention to demonstrate skeuomorphism. The sounds I implemented on the website also enhance this effect, including tracks of people talking, rain, birds, etc.</h5>
+            <ul>
+            <li>Did you find anything confusing?</li>
+            </ul>
+            <h5>Most respondents mentioned that there was no sound in that version. I had indeed forgotten to include all the sound tracks. There were helpful suggestions, such as having a default sound playing when users enter the website so they can immediately understand the sound panels at the bottom. The mute and unmute buttons were also noted as quite small, and I will resize them to improve usability.</h5>
+            <ul>
+            <li>Is the website easy to navigate?</li>
+            </ul>
+            <h5>Most respondents agreed with the overall design, though one feedback point stood out: the suggestion to add a play button. I hadn’t considered a play button since users can layer multiple sounds and play whichever they like. However, I realized it would improve the user experience to have a tool to pause all sounds easily.</h5>
+            <ul>
+            <li>How did you feel while using this website?</li>
+            </ul>
+            <h5>Again, most people were confused by the lack of sound, but one person correctly identified the project’s purpose to provide calming background audio for studying.</h5>
+            <ul>
+            <li>If you could add anything to the page, what would you add?</li>
+            </ul>
+            <h5>Overall, most of the feedback was helpful, and I plan to implement suggestions such as adding a pop-up activation, adjusting the layout, including the date, and resizing the mute/play buttons. I will test these elements to see how they fit within the project.</h5>
+       
+    </div>
+
+    <div class="Referenece">
+        <h3>References</h3>
+        <a href=" https://pixabay.com/">Pixabay</a>
+        <a href="https://pixabay.com/sound-effects/">Pixabay Sound</a>
+    </div>
+<hr>
+    <div class="bottomBlock">
+    </div>
+  
+  
     
 </body>
 </html>
