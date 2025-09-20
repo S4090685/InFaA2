@@ -43,11 +43,13 @@
     }
     ul{
         font-family: "Open Sans", sans-serif;
-       font-weight: bolder ;
+       font-weight: 400 ;
         font-size: 1rem;
         margin-bottom: 10px;
         padding-left: 3%;
     }
+
+
     h4{
         font-family: "Open Sans", sans-serif;
         font-optical-sizing: auto;
